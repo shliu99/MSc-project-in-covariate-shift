@@ -11,8 +11,8 @@
 # casual_ind - index of causual features
 
 sample_beta <- function(len, alpha, seed = 2000){
-  set.seed(seed)
   casual = alpha * len
+  set.seed(seed)
   casual_ind = sample(1:len, size = casual)
   out = numeric(len)
   set.seed(seed + 20)
