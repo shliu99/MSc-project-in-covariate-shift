@@ -9,7 +9,7 @@
 # subset of data with specified dimension
 # index of causal in the subset
 
-subdata <- function(data, nsize, psize, causal, seed=1998){
+subdata <- function(data,label,nsize, psize, causal, seed=1998){
   n = nrow(data); p = ncol(data)
   causal_prop = length(causal)/p
   set.seed(seed + 2)
@@ -21,6 +21,8 @@ subdata <- function(data, nsize, psize, causal, seed=1998){
   set.seed(seed + 8)
   sub_n = sample(1:n, size = nsize)
   data_sub = data[sub_n,sub_p]
-  return(list(data_sub = data_sub, causal_sub = sort(causal_sub)))
+  label_sub = label[sub_n]
+  return(list(data_sub = data_sub,
+              label_sub = label_sub,
+              causal_sub = sort(causal_sub)))
 }
-subdata(G_eur, 100, 200, causal_ind)
