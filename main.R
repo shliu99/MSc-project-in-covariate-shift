@@ -3,7 +3,7 @@
 # install.packages("densratio")
 library("densratio"); library(glmnet); library("Matrix")
 source("generating_phenotype.R")
-
+source("subdata.R")
 
 # laod data ---------------------------------------------------------------
 G_eur <- readMM("G_eur.mtx")
@@ -16,10 +16,10 @@ ifelse(ncol(G_eur) == ncol(G_afr), p <- ncol(G_eur),
 # generate phenotype ------------------------------------------------------
 # proprtion of positve African penotype is around 0.68
 x <- sample_beta(p, 0.05, seed = 20)
-beta <- x$beta; causual_ind <- x$causual_ind
+beta <- x$beta; causal_ind <- x$causal_ind
 y <- generate_phenotype(G_eur, G_afr, beta, prop = 0.2, upper = 0.25, 
                         lower = 0.1)
-G_afr <- y$G_afr; G_eur <- y$G_eur
+P_afr <- y$P_afr; P_eur <- y$P_eur
 rm(x,y)
 
 

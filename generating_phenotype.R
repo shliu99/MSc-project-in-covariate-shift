@@ -4,20 +4,20 @@
 # function 1: sample \beta
 # @param: 
 # len - total number of \beta being sampled
-# alpha - proportion of causual features 
+# alpha - proportion of causal features 
 # seed - set seeds
 # return: 
 # beta - a matrix of one column which contains all the beta
-# causual_ind - index of causual features
+# causal_ind - index of causal features
 
 sample_beta <- function(len, alpha, seed = 2000){
-  causual = alpha * len
+  causal = alpha * len
   set.seed(seed)
-  causual_ind = sample(1:len, size = causual)
+  causal_ind = sample(1:len, size = causal)
   out = numeric(len)
   set.seed(seed + 20)
-  out[causual_ind] = rnorm(causual)
-  return(list(beta = as.matrix(out, ncol = 1), causual_ind = causual_ind))
+  out[causal_ind] = rnorm(causal)
+  return(list(beta = as.matrix(out, ncol = 1), causal_ind = causal_ind))
 }
 
 # function 2: generate phenotye for the European and African
