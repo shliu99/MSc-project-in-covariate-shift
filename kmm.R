@@ -32,7 +32,7 @@ kmm <- function(x_tr,x_te,gamma = NULL){
   Ktrtr = rbf_kernel(x_tr, x_tr, gamma)
   # compute kappa
   cat("computing kappa... \n")
-  Ktrte = rbf_kernel(x_tr, x_te, gamma)
+  Ktrte = rbf_kernel(x_tr, x_tr, gamma)
   kappa = rowSums(Ktrte) * n_tr/n_te
   # compute epsilon
   cat("computing epsilon... \n")
@@ -48,6 +48,8 @@ kmm <- function(x_tr,x_te,gamma = NULL){
 }
 
 ### example
-w <- kmm(as.matrix(sG_eur), as.matrix(sG_afr))
-kmm_logreg <- cv.glmnet(sG_eur, sP_eur, family = "binomial",
-                        weights = w) # error occured
+# need to load main.R first
+# w <- kmm(as.matrix(sG_eur), as.matrix(sG_afr))
+# kmm_logreg <- cv.glmnet(sG_eur, sP_eur, family = "binomial",
+#                         weights = w) 
+

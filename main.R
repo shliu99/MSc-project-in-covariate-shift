@@ -2,9 +2,10 @@
 # install.packages("glmnet", repos = "http://cran.us.r-project.org")
 # install.packages("densratio")
 library("densratio"); library(glmnet); library("Matrix")
-source("generating_phenotype.R")
+source("generate_phenotype.R")
 source("subdata.R")
 source("evaluate_algorithm.R")
+source("kmm.R")
 
 # laod data ---------------------------------------------------------------
 G_eur <- readMM("G_eur.mtx")
