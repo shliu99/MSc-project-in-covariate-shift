@@ -96,9 +96,9 @@ for (sdr in sdr_lst){
             X.test.out <- data.X.test
           }
   )
-  write.csv(X.train.out, file = file.path(fold_path, paste0(sdr,"_train.csv")),
+  write.csv(X.train.out, file = paste0(sdr,"_train.csv"),
             row.names = F)
-  write.csv(X.test.out, file = file.path(fold_path, paste0(sdr,"_test.csv")),
+  write.csv(X.test.out, file = paste0(sdr,"_test.csv"),
             row.names = F)
 }
 
