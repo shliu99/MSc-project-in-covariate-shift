@@ -1,0 +1,45 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Background}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Covariate Shift Correction}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Importance Estimation}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Kernel Mean Matching \(KMM\)}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Finite-order Approach}{subsection.2.1}% 6
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Infinite-order Approach}{subsection.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Kullback-Leibler Importance Estimation Procedure \(KLIEP\)}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Model Selection by Cross-validation}{subsection.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.3}{Unconstrained Least-square Importance Fitting \(uLSIF\)}{section.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Leave-one-out Cross-validation \(LOOCV\)}{subsection.2.3}% 11
+\BOOKMARK [2][-]{subsection.2.4}{Challenges}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{Supervised Dimension Reduction}{}% 13
+\BOOKMARK [2][-]{subsection.3.1}{Supervised PCA}{section.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Hilbert-Schmidt Independence Criterion \(HSIC\)}{subsection.3.1}% 15
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Supervised PCA Algorithm}{subsection.3.1}% 16
+\BOOKMARK [3][-]{subsubsection.3.1.3}{The Dual Problem}{subsection.3.1}% 17
+\BOOKMARK [3][-]{subsubsection.3.1.4}{Kernel Supervised PCA}{subsection.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.2}{Local Fisher Discriminant Analysis}{section.3}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Fisher Linear Discriminant Analysis}{subsection.3.2}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Local Preserving Projection \(LPP\)}{subsection.3.2}% 21
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Local Fisher Discriminant Analysis \(LFDA\)}{subsection.3.2}% 22
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Kernel Local Linear Fisher Discriminant Analysis \(KLFDA\)}{subsection.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.3}{Supervised Non-negative Matrix Factorisation}{section.3}% 24
+\BOOKMARK [3][-]{subsubsection.3.3.1}{The NMF Model}{subsection.3.3}% 25
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Supervised NMF \(SNMF\)}{subsection.3.3}% 26
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Selecting the Number of Types}{subsection.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.4}{Summary}{section.3}% 28
+\BOOKMARK [1][-]{section.4}{Experiment on the Artificial Dataset}{}% 29
+\BOOKMARK [2][-]{subsection.4.1}{Data}{section.4}% 30
+\BOOKMARK [2][-]{subsection.4.2}{Implementation}{section.4}% 31
+\BOOKMARK [2][-]{subsection.4.3}{Results}{section.4}% 32
+\BOOKMARK [1][-]{section.5}{Experiment on the UK Biobank Dataset}{}% 33
+\BOOKMARK [2][-]{subsection.5.1}{Data}{section.5}% 34
+\BOOKMARK [2][-]{subsection.5.2}{Experiment Design}{section.5}% 35
+\BOOKMARK [2][-]{subsection.5.3}{Results}{section.5}% 36
+\BOOKMARK [1][-]{section.6}{Further Work}{}% 37
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 38
+\BOOKMARK [1][-]{appendix.1.A}{R code: Pre-screening}{}% 39
+\BOOKMARK [1][-]{appendix.1.B}{R code: kernel functions and kernel parameter tuning}{}% 40
+\BOOKMARK [1][-]{appendix.1.C}{R code: tuning Gaussian kernel parameters}{}% 41
+\BOOKMARK [1][-]{appendix.1.D}{R code: tuning dimension reduction methods parameters}{}% 42
+\BOOKMARK [1][-]{appendix.1.E}{R code: supervised dimension reduction}{}% 43
+\BOOKMARK [1][-]{appendix.1.F}{R code: density ratio estimation}{}% 44
+\BOOKMARK [1][-]{appendix.1.G}{R code: evaluate the model performance}{}% 45

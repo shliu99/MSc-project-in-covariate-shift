@@ -1,0 +1,326 @@
+\begin{thebibliography}{}
+
+\bibitem[Barshan et~al., 2011]{barshan2011supervised}
+Barshan, E., Ghodsi, A., Azimifar, Z., and Jahromi, M.~Z. (2011).
+\newblock Supervised principal component analysis: Visualization,
+  classification and regression on subspaces and submanifolds.
+\newblock {\em Pattern Recognition}, 44(7):1357--1371.
+
+\bibitem[Belkin and Niyogi, 2003]{belkin2003laplacian}
+Belkin, M. and Niyogi, P. (2003).
+\newblock Laplacian eigenmaps for dimensionality reduction and data
+  representation.
+\newblock {\em Neural computation}, 15(6):1373--1396.
+
+\bibitem[Biobank, 2015]{biobank2015genotyping}
+Biobank, U. (2015).
+\newblock Genotyping and quality control of uk biobank, a large-scale,
+  extensively phenotyped prospective resource.
+\newblock {\em Available at biobank. ctsu. ox. ac.
+  uk/crystal/docs/genotyping\_qc. pdf. Accessed April}, 1:2016.
+
+\bibitem[Bycroft et~al., 2018]{bycroft2018uk}
+Bycroft, C., Freeman, C., Petkova, D., Band, G., Elliott, L.~T., Sharp, K.,
+  Motyer, A., Vukcevic, D., Delaneau, O., O’Connell, J., et~al. (2018).
+\newblock The uk biobank resource with deep phenotyping and genomic data.
+\newblock {\em Nature}, 562(7726):203--209.
+
+\bibitem[Cai et~al., 2017]{cai2017learning}
+Cai, Y., Gu, H., and Kenney, T. (2017).
+\newblock Learning microbial community structures with supervised and
+  unsupervised non-negative matrix factorization.
+\newblock {\em Microbiome}, 5(1):110.
+
+\bibitem[Canela-Xandri et~al., 2018]{canela2018atlas}
+Canela-Xandri, O., Rawlik, K., and Tenesa, A. (2018).
+\newblock An atlas of genetic associations in uk biobank.
+\newblock {\em Nature genetics}, 50(11):1593--1599.
+
+\bibitem[Carlson et~al., 2013]{carlson2013generalization}
+Carlson, C.~S., Matise, T.~C., North, K.~E., Haiman, C.~A., Fesinmeyer, M.~D.,
+  Buyske, S., Schumacher, F.~R., Peters, U., Franceschini, N., Ritchie, M.~D.,
+  et~al. (2013).
+\newblock Generalization and dilution of association results from european gwas
+  in populations of non-european ancestry: the page study.
+\newblock {\em PLoS Biol}, 11(9):e1001661.
+
+\bibitem[Damodaran, 2018]{damodaran2018fast}
+Damodaran, B.~B. (2018).
+\newblock Fast optimal bandwidth selection for rbf kernel using reproducing
+  kernel hilbert space operators for kernel based classifiers.
+\newblock {\em arXiv preprint arXiv:1804.05214}.
+
+\bibitem[Deng and Runger, 2013]{deng2013gene}
+Deng, H. and Runger, G. (2013).
+\newblock Gene selection with guided regularized random forest.
+\newblock {\em Pattern Recognition}, 46(12):3483--3489.
+
+\bibitem[Fisher, 1936]{fisher1936use}
+Fisher, R.~A. (1936).
+\newblock The use of multiple measurements in taxonomic problems.
+\newblock {\em Annals of eugenics}, 7(2):179--188.
+
+\bibitem[Fishman, 2013]{fishman2013monte}
+Fishman, G. (2013).
+\newblock {\em Monte Carlo: concepts, algorithms, and applications}.
+\newblock Springer Science \& Business Media.
+
+\bibitem[Friedman et~al., 2009]{friedman2009glmnet}
+Friedman, J., Hastie, T., and Tibshirani, R. (2009).
+\newblock glmnet: Lasso and elastic-net regularized generalized linear models.
+\newblock {\em R package version}, 1(4).
+
+\bibitem[Friedman, 1989]{friedman1989regularized}
+Friedman, J.~H. (1989).
+\newblock Regularized discriminant analysis.
+\newblock {\em Journal of the American statistical association},
+  84(405):165--175.
+
+\bibitem[Fukunaga, 2013]{fukunaga2013introduction}
+Fukunaga, K. (2013).
+\newblock {\em Introduction to statistical pattern recognition}.
+\newblock Elsevier.
+
+\bibitem[Fulton and Harris, 2013]{fulton2013representation}
+Fulton, W. and Harris, J. (2013).
+\newblock {\em Representation theory: a first course}, volume 129.
+\newblock Springer Science \& Business Media.
+
+\bibitem[Ghojogh and Crowley, 2019]{ghojogh2019unsupervised}
+Ghojogh, B. and Crowley, M. (2019).
+\newblock Unsupervised and supervised principal component analysis: Tutorial.
+\newblock {\em arXiv preprint arXiv:1906.03148}.
+
+\bibitem[Ghojogh et~al., 2019]{ghojogh2019eigenvalue}
+Ghojogh, B., Karray, F., and Crowley, M. (2019).
+\newblock Eigenvalue and generalized eigenvalue problems: Tutorial.
+\newblock {\em arXiv preprint arXiv:1903.11240}.
+
+\bibitem[Ghosh and Kirby, 2020]{ghosh2020supervised}
+Ghosh, T. and Kirby, M. (2020).
+\newblock Supervised dimensionality reduction and visualization using
+  centroid-encoder.
+\newblock {\em arXiv preprint arXiv:2002.11934}.
+
+\bibitem[Gravel et~al., 2011]{gravel2011demographic}
+Gravel, S., Henn, B.~M., Gutenkunst, R.~N., Indap, A.~R., Marth, G.~T., Clark,
+  A.~G., Yu, F., Gibbs, R.~A., Bustamante, C.~D., Project, .~G., et~al. (2011).
+\newblock Demographic history and rare allele sharing among human populations.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  108(29):11983--11988.
+
+\bibitem[Gretton et~al., 2005]{gretton2005measuring}
+Gretton, A., Bousquet, O., Smola, A., and Sch{\"o}lkopf, B. (2005).
+\newblock Measuring statistical dependence with hilbert-schmidt norms.
+\newblock In {\em International conference on algorithmic learning theory},
+  pages 63--77. Springer.
+
+\bibitem[Gretton et~al., 2009]{gretton2009covariate}
+Gretton, A., Smola, A., Huang, J., Schmittfull, M., Borgwardt, K., and
+  Sch{\"o}lkopf, B. (2009).
+\newblock Covariate shift by kernel mean matching.
+\newblock {\em Dataset shift in machine learning}, 3(4):5.
+
+\bibitem[He and Niyogi, 2004]{he2004locality}
+He, X. and Niyogi, P. (2004).
+\newblock Locality preserving projections.
+\newblock In {\em Advances in neural information processing systems}, pages
+  153--160.
+
+\bibitem[Higham, 2002]{higham2002computing}
+Higham, N.~J. (2002).
+\newblock Computing the nearest correlation matrix—a problem from finance.
+\newblock {\em IMA journal of Numerical Analysis}, 22(3):329--343.
+
+\bibitem[Jain et~al., 2000]{jain2000statistical}
+Jain, A.~K., Duin, R. P.~W., and Mao, J. (2000).
+\newblock Statistical pattern recognition: A review.
+\newblock {\em IEEE Transactions on pattern analysis and machine intelligence},
+  22(1):4--37.
+
+\bibitem[Kanamori et~al., 2009]{kanamori2009condition}
+Kanamori, T., Suzuki, T., and Sugiyama, M. (2009).
+\newblock Condition number analysis of kernel-based density ratio estimation.
+\newblock {\em arXiv preprint arXiv:0912.2800}.
+
+\bibitem[Kelleher et~al., 2016]{kelleher2016efficient}
+Kelleher, J., Etheridge, A.~M., and McVean, G. (2016).
+\newblock Efficient coalescent simulation and genealogical analysis for large
+  sample sizes.
+\newblock {\em PLoS computational biology}, 12(5):e1004842.
+
+\bibitem[Le et~al., 2018]{le2018supervised}
+Le, L., Patterson, A., and White, M. (2018).
+\newblock Supervised autoencoders: Improving generalization performance with
+  unsupervised regularizers.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  107--117.
+
+\bibitem[Lee and Seung, 1999]{lee1999learning}
+Lee, D.~D. and Seung, H.~S. (1999).
+\newblock Learning the parts of objects by non-negative matrix factorization.
+\newblock {\em Nature}, 401(6755):788--791.
+
+\bibitem[Lee and Seung, 2001]{lee2001algorithms}
+Lee, D.~D. and Seung, H.~S. (2001).
+\newblock Algorithms for non-negative matrix factorization.
+\newblock In {\em Advances in neural information processing systems}, pages
+  556--562.
+
+\bibitem[Li et~al., 2010]{li2010automatic}
+Li, C.-H., Lin, C.-T., Kuo, B.-C., and Chu, H.-S. (2010).
+\newblock An automatic method for selecting the parameter of the rbf kernel
+  function to support vector machines.
+\newblock In {\em 2010 IEEE International Geoscience and Remote Sensing
+  Symposium}, pages 836--839. IEEE.
+
+\bibitem[Martin et~al., 2017]{martin2017human}
+Martin, A.~R., Gignoux, C.~R., Walters, R.~K., Wojcik, G.~L., Neale, B.~M.,
+  Gravel, S., Daly, M.~J., Bustamante, C.~D., and Kenny, E.~E. (2017).
+\newblock Human demographic history impacts genetic risk prediction across
+  diverse populations.
+\newblock {\em The American Journal of Human Genetics}, 100(4):635--649.
+
+\bibitem[Martin et~al., 2019]{martin2019clinical}
+Martin, A.~R., Kanai, M., Kamatani, Y., Okada, Y., Neale, B.~M., and Daly,
+  M.~J. (2019).
+\newblock Clinical use of current polygenic risk scores may exacerbate health
+  disparities.
+\newblock {\em Nature genetics}, 51(4):584--591.
+
+\bibitem[Need and Goldstein, 2009]{need2009next}
+Need, A.~C. and Goldstein, D.~B. (2009).
+\newblock Next generation disparities in human genomics: concerns and remedies.
+\newblock {\em Trends in Genetics}, 25(11):489--494.
+
+\bibitem[Pasaniuc et~al., 2011]{pasaniuc2011enhanced}
+Pasaniuc, B., Zaitlen, N., Lettre, G., Chen, G.~K., Tandon, A., Kao, W.~L.,
+  Ruczinski, I., Fornage, M., Siscovick, D.~S., Zhu, X., et~al. (2011).
+\newblock Enhanced statistical tests for gwas in admixed populations:
+  assessment using african americans from care and a breast cancer consortium.
+\newblock {\em PLoS Genet}, 7(4):e1001371.
+
+\bibitem[Peterson et~al., 2019]{peterson2019genome}
+Peterson, R.~E., Kuchenbaecker, K., Walters, R.~K., Chen, C.-Y., Popejoy,
+  A.~B., Periyasamy, S., Lam, M., Iyegbe, C., Strawbridge, R.~J., Brick, L.,
+  et~al. (2019).
+\newblock Genome-wide association studies in ancestrally diverse populations:
+  opportunities, methods, pitfalls, and recommendations.
+\newblock {\em Cell}, 179(3):589--603.
+
+\bibitem[Popejoy and Fullerton, 2016]{popejoy2016genomics}
+Popejoy, A.~B. and Fullerton, S.~M. (2016).
+\newblock Genomics is failing on diversity.
+\newblock {\em Nature News}, 538(7624):161.
+
+\bibitem[Roweis and Saul, 2000]{roweis2000nonlinear}
+Roweis, S.~T. and Saul, L.~K. (2000).
+\newblock Nonlinear dimensionality reduction by locally linear embedding.
+\newblock {\em science}, 290(5500):2323--2326.
+
+\bibitem[Sheather and Jones, 1991]{sheather1991reliable}
+Sheather, S.~J. and Jones, M.~C. (1991).
+\newblock A reliable data-based bandwidth selection method for kernel density
+  estimation.
+\newblock {\em Journal of the Royal Statistical Society: Series B
+  (Methodological)}, 53(3):683--690.
+
+\bibitem[Shimodaira, 2000]{shimodaira2000improving}
+Shimodaira, H. (2000).
+\newblock Improving predictive inference under covariate shift by weighting the
+  log-likelihood function.
+\newblock {\em Journal of statistical planning and inference}, 90(2):227--244.
+
+\bibitem[Smola and Sch{\"o}lkopf, 1998]{smola1998learning}
+Smola, A.~J. and Sch{\"o}lkopf, B. (1998).
+\newblock {\em Learning with kernels}, volume~4.
+\newblock Citeseer.
+
+\bibitem[Stojanov et~al., 2019]{stojanov2019low}
+Stojanov, P., Gong, M., Carbonell, J.~G., and Zhang, K. (2019).
+\newblock Low-dimensional density ratio estimation for covariate shift
+  correction.
+\newblock {\em Proceedings of machine learning research}, 89:3449.
+
+\bibitem[Sugiyama, 2007]{sugiyama2007dimensionality}
+Sugiyama, M. (2007).
+\newblock Dimensionality reduction of multimodal labeled data by local fisher
+  discriminant analysis.
+\newblock {\em Journal of machine learning research}, 8(May):1027--1061.
+
+\bibitem[Sugiyama et~al., 2010a]{sugiyama2010dimensionality}
+Sugiyama, M., Kawanabe, M., and Chui, P.~L. (2010a).
+\newblock Dimensionality reduction for density ratio estimation in
+  high-dimensional spaces.
+\newblock {\em Neural Networks}, 23(1):44--59.
+
+\bibitem[Sugiyama et~al., 2010b]{sugiyama2010density}
+Sugiyama, M., Suzuki, T., and Kanamori, T. (2010b).
+\newblock Density ratio estimation: A comprehensive review (statistical
+  experiment and its related topics).
+
+\bibitem[Tsuboi et~al., 2009]{tsuboi2009direct}
+Tsuboi, Y., Kashima, H., Hido, S., Bickel, S., and Sugiyama, M. (2009).
+\newblock Direct density ratio estimation for large-scale covariate shift
+  adaptation.
+\newblock {\em Journal of Information Processing}, 17:138--155.
+
+\bibitem[Vilhj{\'a}lmsson et~al., 2015]{vilhjalmsson2015modeling}
+Vilhj{\'a}lmsson, B.~J., Yang, J., Finucane, H.~K., Gusev, A., Lindstr{\"o}m,
+  S., Ripke, S., Genovese, G., Loh, P.-R., Bhatia, G., Do, R., et~al. (2015).
+\newblock Modeling linkage disequilibrium increases accuracy of polygenic risk
+  scores.
+\newblock {\em The american journal of human genetics}, 97(4):576--592.
+
+\bibitem[Voorman et~al., 2012]{voorman2012fast}
+Voorman, A., Rice, K., and Lumley, T. (2012).
+\newblock Fast computation for genome-wide association studies using boosted
+  one-step statistics.
+\newblock {\em Bioinformatics}, 28(14):1818--1822.
+
+\bibitem[Wang and van~der Laan, 2011]{wang2011dimension}
+Wang, H. and van~der Laan, M.~J. (2011).
+\newblock Dimension reduction with gene expression data using targeted variable
+  importance measurement.
+\newblock {\em BMC bioinformatics}, 12(1):312.
+
+\bibitem[Wang et~al., 2008]{wang2008approaches}
+Wang, Y., Miller, D.~J., and Clarke, R. (2008).
+\newblock Approaches to working in high-dimensional data spaces: gene
+  expression microarrays.
+\newblock {\em British journal of cancer}, 98(6):1023--1028.
+
+\bibitem[Wilcoxon, 1992]{wilcoxon1992individual}
+Wilcoxon, F. (1992).
+\newblock Individual comparisons by ranking methods.
+\newblock In {\em Breakthroughs in statistics}, pages 196--202. Springer.
+
+\bibitem[Yamada et~al., 2013]{yamada2013relative}
+Yamada, M., Suzuki, T., Kanamori, T., Hachiya, H., and Sugiyama, M. (2013).
+\newblock Relative density-ratio estimation for robust distribution comparison.
+\newblock {\em Neural computation}, 25(5):1324--1370.
+
+\bibitem[Yuan et~al., 2010]{yuan2010comparison}
+Yuan, G.-X., Chang, K.-W., Hsieh, C.-J., and Lin, C.-J. (2010).
+\newblock A comparison of optimization methods and software for large-scale
+  l1-regularized linear classification.
+\newblock {\em The Journal of Machine Learning Research}, 11:3183--3234.
+
+\bibitem[Yuan et~al., 2012]{yuan2012improved}
+Yuan, G.-X., Ho, C.-H., and Lin, C.-J. (2012).
+\newblock An improved glmnet for l1-regularized logistic regression.
+\newblock {\em The Journal of Machine Learning Research}, 13:1999--2030.
+
+\bibitem[Zaitlen et~al., 2010]{zaitlen2010leveraging}
+Zaitlen, N., Pa{\c{s}}aniuc, B., Gur, T., Ziv, E., and Halperin, E. (2010).
+\newblock Leveraging genetic variability across populations for the
+  identification of causal variants.
+\newblock {\em The American Journal of Human Genetics}, 86(1):23--33.
+
+\bibitem[Zelnik-Manor and Perona, 2005]{zelnik2005self}
+Zelnik-Manor, L. and Perona, P. (2005).
+\newblock Self-tuning spectral clustering.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1601--1608.
+
+\end{thebibliography}

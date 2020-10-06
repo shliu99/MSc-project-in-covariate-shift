@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: dissertation.aux
+The style file: apalike.bst
+Database file #1: reference.bib
+Warning--empty journal in sugiyama2010density
+You've used 55 entries,
+            1935 wiz_defined-function locations,
+            803 strings with 14572 characters,
+and the built_in function-call counts, 24511 in all, are:
+= -- 2376
+> -- 1160
+< -- 34
++ -- 417
+- -- 402
+* -- 2193
+:= -- 4225
+add.period$ -- 167
+call.type$ -- 55
+change.case$ -- 466
+chr.to.int$ -- 54
+cite$ -- 56
+duplicate$ -- 854
+empty$ -- 1633
+format.name$ -- 487
+if$ -- 4757
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 59
+newline$ -- 277
+num.names$ -- 165
+pop$ -- 406
+preamble$ -- 1
+purify$ -- 470
+quote$ -- 0
+skip$ -- 657
+stack$ -- 0
+substring$ -- 1781
+swap$ -- 119
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 322
+warning$ -- 1
+while$ -- 196
+width$ -- 0
+write$ -- 710
+(There was 1 warning)
