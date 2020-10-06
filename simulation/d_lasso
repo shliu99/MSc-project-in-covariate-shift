@@ -1,0 +1,61 @@
+# fit lasso
+
+library("glmnet")
+library("pROC")
+
+## prepare data set --------------------------------------------------------
+data.X.train <- as.matrix(readMM("G_eur.mtx"))
+data.X.test <- as.matrix(readMM("G_afr.mtx"))
+data.y = as.numeric(readLines("eur_phe.txt"))
+data.y.true = as.numeric(readLines("afr_phe.txt"))
+
+results <- matrix(NA, ncol = 7)
+colnames(results) = c("algorithm", "auc", "partial_auc",
+                      "threshold","sensitivity", "specifity", "accuracy")
+results <- as.data.frame(results)
+
+
+
+gamma = 0.5
+## read weights 
+sdr = "snmf"
+dre = "kmm"
+weights_algo = paste(sdr, dre, sep = "_")
+
+weights_path = file.path("weights")
+weights = as.numeric(readLines(file.path(weights_path, 
+                                         paste0(weights_algo,".txt"))))
+weights = weights^gamma
+## fit model
+modcv = cv.glmnet(data.X.train, 
+                  data.y, 
+                  family = "binomial",
+                  type.measure = "auc",
+                  weights = weights)
+
+preds = predict(modcv, newx = data.X.test, s = modcv$lambda.min, 
+                type = "response")
+auc <- auc(data.y.true, preds)
+partial.auc <- auc(data.y.true, preds, partial.auc = c(0.9,1),
+                   partial.auc.correct = T)
+roc.info <- roc(data.y.true, preds)
+roc.df <- data.frame(sensitivity= roc.info$sensitivities,
+                     specifity = roc.info$specificities,
+                     threshold = roc.info$thresholds)
+roc.df$youden<- roc.df$sensitivity + roc.df$specifity - 1
+threshold.vals = roc.df[which(roc.df$youden == max(roc.df$youden)),]
+threshold <- threshold.vals$threshold
+labs <- ifelse(preds >= threshold, TRUE, FALSE)
+accurary <- sum(labs == data.y.true)/nrow(preds)
+
+results <- rbind(results, c(weights_algo,
+                            auc,
+                            partial.auc,
+                            threshold,
+                            threshold.vals$sensitivity,
+                            threshold.vals$specifity,
+                            accurary))
+
+preds.res <- cbind(preds.res, preds)
+colnames(preds.res)[ncol(preds.res)] = weights_algo
+
